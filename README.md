@@ -11,6 +11,28 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Then open MPaySDK.xcworkspace in Xcode.
 ## Note: If Project doesn't compiles or crashes. Please clean the project once.
 
+## Important Classes and Protocols
+
+Class ```UserDetailsVC``` contains the Web Page with First Name, Last Name and Profile Image fields
+```UserDetailsVC``` can be instantiated using class function ```instantiateVC```
+
+#### e.g
+        let vc = UserDetailsVC.instantiateVC();
+        vc.delegate = self;
+        self.present(vc, animated: true, completion: nil);
+        
+```UserDetailsVC``` can be set with delegate ```DelegateUserDetails```
+
+```DelegateUserDetails``` contains three callback methods
+
+    func onUserDetailsSubmitted(vc: UserDetailsVC, userDetails: UserDetails); // Called when user successfully updates the user info
+    func onErrorUserDetails(vc: UserDetailsVC, message: String); // Will be called if any error occured
+    func onUnknownOperationCalledFromJavaScript(vc: UserDetailsVC, message: WKScriptMessage); // Will be called when there is any unknown or not supported action from Web Page
+    
+```UserDetails``` contains encapsulated data of the user.    
+
+
+
 ## Known Issues
 
 1. Selecting image from Files app wouldn't work for now. Support can be extended. Didn't get much to implement it. Because, A hot release is going on in the current company due to festive season.
