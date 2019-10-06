@@ -1,0 +1,468 @@
+2019-10-06 18:58:11 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fbe05c5c9c0; archive(resolved)='<IDEArchive: 0x7fbe09146310>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbe08218570>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbe03c01fa0; teamID='XNXHE58JZT', teamName='Sandeep Rana', teamType='Individual', username='sandeep.rana011@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fbe05c5c9c0; archive = '<IDEArchive: 0x7fbe09146310>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbe08218570>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbe03c01fa0; teamID='XNXHE58JZT', teamName='Sandeep Rana', teamType='Individual', username='sandeep.rana011@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fbe050da890; archive = '<IDEArchive: 0x7fbe09146310>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbe08218570>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbe03c01fa0; teamID='XNXHE58JZT', teamName='Sandeep Rana', teamType='Individual', username='sandeep.rana011@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbe08f8fff0; archive = '<IDEArchive: 0x7fbe09146310>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbe08218570>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbe03c01fa0; teamID='XNXHE58JZT', teamName='Sandeep Rana', teamType='Individual', username='sandeep.rana011@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbe07749f20; archive = '<IDEArchive: 0x7fbe09146310>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbe08218570>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbe03c01fa0; teamID='XNXHE58JZT', teamName='Sandeep Rana', teamType='Individual', username='sandeep.rana011@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbe07e04a90; archive = '<IDEArchive: 0x7fbe09146310>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbe08218570>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbe03c01fa0; teamID='XNXHE58JZT', teamName='Sandeep Rana', teamType='Individual', username='sandeep.rana011@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbe0960b860; archive = '<IDEArchive: 0x7fbe09146310>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbe08218570>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbe03c01fa0; teamID='XNXHE58JZT', teamName='Sandeep Rana', teamType='Individual', username='sandeep.rana011@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbe077e1a20; archive = '<IDEArchive: 0x7fbe09146310>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbe08218570>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbe03c01fa0; teamID='XNXHE58JZT', teamName='Sandeep Rana', teamType='Individual', username='sandeep.rana011@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbe06a5c6e0; archive = '<IDEArchive: 0x7fbe09146310>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbe08218570>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbe03c01fa0; teamID='XNXHE58JZT', teamName='Sandeep Rana', teamType='Individual', username='sandeep.rana011@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbe05d44ee0; archive = '<IDEArchive: 0x7fbe09146310>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbe08218570>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbe03c01fa0; teamID='XNXHE58JZT', teamName='Sandeep Rana', teamType='Individual', username='sandeep.rana011@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbe082443c0; archive = '<IDEArchive: 0x7fbe09146310>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbe08218570>', team='(null)'>
+	<IDEDistributionContext: 0x7fbe08b4c280; archive = '<IDEArchive: 0x7fbe09146310>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbe08218570>', team='(null)'>
+	<IDEDistributionContext: 0x7fbe0817e490; archive = '<IDEArchive: 0x7fbe09146310>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fbe05c5c9c0>
+2019-10-06 18:58:11 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-10-06 18:58:11 +0000  Processing step: IDEDistributionCopyItemStep
+2019-10-06 18:58:11 +0000  Running /usr/bin/ditto '-V' '/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app'
+2019-10-06 18:58:11 +0000  >>> Copying /Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app 
+2019-10-06 18:58:11 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-10-06 18:58:11 +0000  9173 bytes for ./_CodeSignature/CodeResources
+2019-10-06 18:58:11 +0000  copying file ./Base.lproj/LaunchScreen.nib/objects-13.0+.nib ... 
+2019-10-06 18:58:11 +0000  3192 bytes for ./Base.lproj/LaunchScreen.nib/objects-13.0+.nib
+copying file ./Base.lproj/LaunchScreen.nib/runtime.nib ... 
+2019-10-06 18:58:11 +0000  3191 bytes for ./Base.lproj/LaunchScreen.nib/runtime.nib
+2019-10-06 18:58:11 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib/objects-13.0+.nib ... 
+2019-10-06 18:58:11 +0000  987 bytes for ./Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib/objects-13.0+.nib
+2019-10-06 18:58:11 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib/runtime.nib ... 
+2019-10-06 18:58:11 +0000  987 bytes for ./Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib/runtime.nib
+2019-10-06 18:58:11 +0000  copying file ./Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib/objects-13.0+.nib ... 
+2019-10-06 18:58:11 +0000  7174 bytes for ./Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib/objects-13.0+.nib
+2019-10-06 18:58:11 +0000  copying file ./Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib/runtime.nib ... 
+2019-10-06 18:58:11 +0000  7173 bytes for ./Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib/runtime.nib
+2019-10-06 18:58:11 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2019-10-06 18:58:11 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2019-10-06 18:58:11 +0000  copying file ./MPaySDK_Example ... 
+2019-10-06 18:58:11 +0000  172528 bytes for ./MPaySDK_Example
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2019-10-06 18:58:11 +0000  679680 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftCore.dylib ... 
+2019-10-06 18:58:11 +0000  95497584 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2019-10-06 18:58:11 +0000  2041040 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/libswiftDispatch.dylib ... 
+2019-10-06 18:58:11 +0000  4056896 bytes for ./Frameworks/libswiftDispatch.dylib
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2019-10-06 18:58:11 +0000  450384 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
+2019-10-06 18:58:11 +0000  1091440 bytes for ./Frameworks/libswiftDarwin.dylib
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/MPaySDK.framework/_CodeSignature/CodeResources ... 
+2019-10-06 18:58:11 +0000  3726 bytes for ./Frameworks/MPaySDK.framework/_CodeSignature/CodeResources
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/MPaySDK.framework/MPaySDK ... 
+2019-10-06 18:58:11 +0000  234464 bytes for ./Frameworks/MPaySDK.framework/MPaySDK
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/MPaySDK.framework/MPaySDK.bundle/UserDetailsForm.html ... 
+2019-10-06 18:58:11 +0000  2027 bytes for ./Frameworks/MPaySDK.framework/MPaySDK.bundle/UserDetailsForm.html
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/MPaySDK.framework/MPaySDK.bundle/Info.plist ... 
+2019-10-06 18:58:11 +0000  762 bytes for ./Frameworks/MPaySDK.framework/MPaySDK.bundle/Info.plist
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/MPaySDK.framework/MPay.storyboardc/nHY-oc-LvK-view-oou-X6-uhj.nib/objects-13.0+.nib ... 
+2019-10-06 18:58:11 +0000  3400 bytes for ./Frameworks/MPaySDK.framework/MPay.storyboardc/nHY-oc-LvK-view-oou-X6-uhj.nib/objects-13.0+.nib
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/MPaySDK.framework/MPay.storyboardc/nHY-oc-LvK-view-oou-X6-uhj.nib/runtime.nib ... 
+2019-10-06 18:58:11 +0000  3402 bytes for ./Frameworks/MPaySDK.framework/MPay.storyboardc/nHY-oc-LvK-view-oou-X6-uhj.nib/runtime.nib
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/MPaySDK.framework/MPay.storyboardc/Info.plist ... 
+2019-10-06 18:58:11 +0000  195 bytes for ./Frameworks/MPaySDK.framework/MPay.storyboardc/Info.plist
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/MPaySDK.framework/MPay.storyboardc/UserDetailsVC.nib/objects-13.0+.nib ... 
+2019-10-06 18:58:11 +0000  1025 bytes for ./Frameworks/MPaySDK.framework/MPay.storyboardc/UserDetailsVC.nib/objects-13.0+.nib
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/MPaySDK.framework/MPay.storyboardc/UserDetailsVC.nib/runtime.nib ... 
+2019-10-06 18:58:11 +0000  1025 bytes for ./Frameworks/MPaySDK.framework/MPay.storyboardc/UserDetailsVC.nib/runtime.nib
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/MPaySDK.framework/Info.plist ... 
+2019-10-06 18:58:11 +0000  787 bytes for ./Frameworks/MPaySDK.framework/Info.plist
+2019-10-06 18:58:11 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2019-10-06 18:58:11 +0000  43094320 bytes for ./Frameworks/libswiftFoundation.dylib
+2019-10-06 18:58:11 +0000  copying file ./embedded.mobileprovision ... 
+10125 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2019-10-06 18:58:11 +0000  1028 bytes for ./Info.plist
+2019-10-06 18:58:11 +0000  copying file ./PkgInfo ... 
+2019-10-06 18:58:11 +0000  8 bytes for ./PkgInfo
+2019-10-06 18:58:11 +0000  /usr/bin/ditto exited with 0
+2019-10-06 18:58:11 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-10-06 18:58:11 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe08062eb0; bundleID='org.cocoapods.MPaySDK', path='<DVTFilePath:0x7fbe07f90c90:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/MPaySDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe05f70cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c165f0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='org.cocoapods.MPaySDK', executablePath='<DVTFilePath:0x7fbe07749b90:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPaySDK'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:11 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe08db8150; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fbe05b95970:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe079c1070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c165f0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fbe05b95970:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:11 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe08bf3620; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fbe079a5410:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe05f0a130; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe0771ebb0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fbe079a5410:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:11 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe08f25500; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fbe0779b840:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe08b36120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c165f0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fbe0779b840:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:11 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe050f8780; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fbe0537d710:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe08b874b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c165f0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fbe0537d710:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:11 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe07fa52b0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fbe08f67e60:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe0449a3a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c165f0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fbe08f67e60:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:11 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe08f95480; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fbe08b5bc50:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe05982600; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c165f0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fbe08b5bc50:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:11 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe081a3810; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fbe08fcced0:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe08b4cbf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c165f0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fbe08fcced0:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:11 +0000  Processing step: IDEDistributionItemRemovalStep
+2019-10-06 18:58:11 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-10-06 18:58:11 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-10-06 18:58:11 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-10-06 18:58:11 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-10-06 18:58:11 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-10-06 18:58:12 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-10-06 18:58:12 +0000  Running /usr/bin/ditto '-V' '/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/BCSymbolMaps/67FE41A2-C1E1-331B-9709-765D12FC455C.bcsymbolmap' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/BCSymbolMaps/67FE41A2-C1E1-331B-9709-765D12FC455C.bcsymbolmap'
+2019-10-06 18:58:12 +0000  >>> Copying /Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/BCSymbolMaps/67FE41A2-C1E1-331B-9709-765D12FC455C.bcsymbolmap 
+2019-10-06 18:58:12 +0000  copying file ./67FE41A2-C1E1-331B-9709-765D12FC455C.bcsymbolmap ... 
+2019-10-06 18:58:12 +0000  20905 bytes for ./67FE41A2-C1E1-331B-9709-765D12FC455C.bcsymbolmap
+2019-10-06 18:58:12 +0000  /usr/bin/ditto exited with 0
+2019-10-06 18:58:12 +0000  Running /usr/bin/ditto '-V' '/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/BCSymbolMaps/531DC94D-FA1A-354D-A159-F7B0720F85E8.bcsymbolmap' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/BCSymbolMaps/531DC94D-FA1A-354D-A159-F7B0720F85E8.bcsymbolmap'
+2019-10-06 18:58:12 +0000  >>> Copying /Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/BCSymbolMaps/531DC94D-FA1A-354D-A159-F7B0720F85E8.bcsymbolmap 
+2019-10-06 18:58:12 +0000  copying file ./531DC94D-FA1A-354D-A159-F7B0720F85E8.bcsymbolmap ... 
+2019-10-06 18:58:12 +0000  21241 bytes for ./531DC94D-FA1A-354D-A159-F7B0720F85E8.bcsymbolmap
+2019-10-06 18:58:12 +0000  /usr/bin/ditto exited with 0
+2019-10-06 18:58:12 +0000  Processing step: IDEDistributionSymbolsStep
+2019-10-06 18:58:12 +0000  Excluding symbols for MPaySDK.framework
+2019-10-06 18:58:12 +0000  Excluding symbols for libswiftCore.dylib
+2019-10-06 18:58:12 +0000  Excluding symbols for libswiftCoreFoundation.dylib
+2019-10-06 18:58:12 +0000  Excluding symbols for libswiftCoreGraphics.dylib
+2019-10-06 18:58:12 +0000  Excluding symbols for libswiftDarwin.dylib
+2019-10-06 18:58:12 +0000  Excluding symbols for libswiftDispatch.dylib
+2019-10-06 18:58:12 +0000  Excluding symbols for libswiftFoundation.dylib
+2019-10-06 18:58:12 +0000  Excluding symbols for libswiftObjectiveC.dylib
+2019-10-06 18:58:12 +0000  Excluding symbols for MPaySDK_Example.app
+2019-10-06 18:58:12 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2019-10-06 18:58:12 +0000  Running /usr/bin/ditto '-V' '/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/SwiftSupport' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/SwiftSupport'
+2019-10-06 18:58:12 +0000  >>> Copying /Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/SwiftSupport 
+2019-10-06 18:58:12 +0000  copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2019-10-06 18:58:12 +0000  853536 bytes for ./iphoneos/libswiftObjectiveC.dylib
+2019-10-06 18:58:12 +0000  copying file ./iphoneos/libswiftCore.dylib ... 
+2019-10-06 18:58:12 +0000  140528488 bytes for ./iphoneos/libswiftCore.dylib
+2019-10-06 18:58:12 +0000  copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2019-10-06 18:58:12 +0000  2727340 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+copying file ./iphoneos/libswiftDispatch.dylib ... 
+2019-10-06 18:58:12 +0000  5501324 bytes for ./iphoneos/libswiftDispatch.dylib
+2019-10-06 18:58:12 +0000  copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2019-10-06 18:58:12 +0000  503571 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+2019-10-06 18:58:12 +0000  copying file ./iphoneos/libswiftDarwin.dylib ... 
+2019-10-06 18:58:12 +0000  1412286 bytes for ./iphoneos/libswiftDarwin.dylib
+2019-10-06 18:58:12 +0000  copying file ./iphoneos/libswiftFoundation.dylib ... 
+2019-10-06 18:58:12 +0000  62290319 bytes for ./iphoneos/libswiftFoundation.dylib
+2019-10-06 18:58:12 +0000  /usr/bin/ditto exited with 0
+2019-10-06 18:58:12 +0000  Processing step: IDEDistributionAppThinningStep
+2019-10-06 18:58:12 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-10-06 18:58:12 +0000  Processing step: IDEDistributionArchThinningStep
+2019-10-06 18:58:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPaySDK' '-verify_arch' 'arm64e'
+2019-10-06 18:58:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-06 18:58:12 +0000  Skipping architecture thinning for item "MPaySDK" because arch "arm64e" wasn't found
+2019-10-06 18:58:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2019-10-06 18:58:12 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-10-06 18:58:12 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCore.dylib'
+2019-10-06 18:58:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-10-06 18:58:13 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2019-10-06 18:58:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2019-10-06 18:58:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-10-06 18:58:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib'
+2019-10-06 18:58:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-10-06 18:58:13 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2019-10-06 18:58:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2019-10-06 18:58:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-10-06 18:58:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib'
+2019-10-06 18:58:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-10-06 18:58:13 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2019-10-06 18:58:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2019-10-06 18:58:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-10-06 18:58:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib'
+2019-10-06 18:58:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-10-06 18:58:13 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2019-10-06 18:58:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2019-10-06 18:58:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-10-06 18:58:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib'
+2019-10-06 18:58:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-10-06 18:58:13 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2019-10-06 18:58:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2019-10-06 18:58:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-10-06 18:58:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib'
+2019-10-06 18:58:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-10-06 18:58:13 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2019-10-06 18:58:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2019-10-06 18:58:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-10-06 18:58:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib'
+2019-10-06 18:58:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-10-06 18:58:13 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2019-10-06 18:58:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/MPaySDK_Example' '-verify_arch' 'arm64e'
+2019-10-06 18:58:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-10-06 18:58:13 +0000  Skipping architecture thinning for item "MPaySDK_Example" because arch "arm64e" wasn't found
+2019-10-06 18:58:13 +0000  Processing step: IDEDistributionODRStep
+2019-10-06 18:58:13 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-10-06 18:58:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe08062eb0; bundleID='org.cocoapods.MPaySDK', path='<DVTFilePath:0x7fbe07f90c90:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/MPaySDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe05f70cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe08e984e0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='org.cocoapods.MPaySDK', executablePath='<DVTFilePath:0x7fbe07749b90:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPaySDK'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe08db8150; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fbe05b95970:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe079c1070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe08eb41e0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fbe05b95970:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe08bf3620; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fbe079a5410:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe05f0a130; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c4d360; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fbe079a5410:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe08f25500; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fbe0779b840:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe08b36120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe08eb44c0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fbe0779b840:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe050f8780; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fbe0537d710:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe08b874b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c53570; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fbe0537d710:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe07fa52b0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fbe08f67e60:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe0449a3a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe0747a350; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fbe08f67e60:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe08f95480; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fbe08b5bc50:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe05982600; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe08ea21e0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fbe08b5bc50:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe081a3810; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fbe08fcced0:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe08b4cbf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c50f20; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fbe08fcced0:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2019-10-06 18:58:13 +0000  Running /usr/bin/xattr '-crs' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app'
+2019-10-06 18:58:13 +0000  /usr/bin/xattr exited with 0
+2019-10-06 18:58:13 +0000  Processing step: IDEDistributionCodesignStep
+2019-10-06 18:58:13 +0000  Entitlements for <IDEDistributionItem: 0x7fbe08062eb0; bundleID='org.cocoapods.MPaySDK', path='<DVTFilePath:0x7fbe07f90c90:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/MPaySDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe05f70cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe08ec1aa0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='org.cocoapods.MPaySDK', executablePath='<DVTFilePath:0x7fbe07749b90:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPaySDK'>', hardenedRuntime='0'>'>: {
+}
+2019-10-06 18:58:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe08062eb0; bundleID='org.cocoapods.MPaySDK', path='<DVTFilePath:0x7fbe07f90c90:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/MPaySDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe05f70cb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c50350; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='org.cocoapods.MPaySDK', executablePath='<DVTFilePath:0x7fbe07749b90:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPaySDK'>', hardenedRuntime='0'>'> to: /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~YPgg5D
+2019-10-06 18:58:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8187C5416554E1483D5B451674E20FC6D6465CD9' '--entitlements' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~YPgg5D' '--preserve-metadata=identifier,flags,runtime' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework'
+2019-10-06 18:58:13 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.MPaySDK]
+2019-10-06 18:58:13 +0000  /usr/bin/codesign exited with 0
+2019-10-06 18:58:13 +0000  Entitlements for <IDEDistributionItem: 0x7fbe08db8150; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fbe05b95970:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe079c1070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe08eb1ec0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fbe05b95970:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-06 18:58:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe08db8150; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fbe05b95970:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe079c1070; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c0d470; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fbe05b95970:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~3rx8uU
+2019-10-06 18:58:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8187C5416554E1483D5B451674E20FC6D6465CD9' '--entitlements' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~3rx8uU' '--preserve-metadata=identifier,flags,runtime' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCore.dylib'
+2019-10-06 18:58:13 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2019-10-06 18:58:14 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2019-10-06 18:58:14 +0000  /usr/bin/codesign exited with 0
+2019-10-06 18:58:14 +0000  Entitlements for <IDEDistributionItem: 0x7fbe08bf3620; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fbe079a5410:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe05f0a130; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe07481b70; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fbe079a5410:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-06 18:58:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe08bf3620; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fbe079a5410:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe05f0a130; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05ba9560; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fbe079a5410:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~WKevBz
+2019-10-06 18:58:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8187C5416554E1483D5B451674E20FC6D6465CD9' '--entitlements' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~WKevBz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib'
+2019-10-06 18:58:14 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2019-10-06 18:58:14 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2019-10-06 18:58:14 +0000  /usr/bin/codesign exited with 0
+2019-10-06 18:58:14 +0000  Entitlements for <IDEDistributionItem: 0x7fbe08f25500; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fbe0779b840:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe08b36120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe07481b70; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fbe0779b840:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-06 18:58:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe08f25500; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fbe0779b840:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe08b36120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe08ea1f60; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fbe0779b840:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> to: /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~7JF8YQ
+2019-10-06 18:58:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8187C5416554E1483D5B451674E20FC6D6465CD9' '--entitlements' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~7JF8YQ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib'
+2019-10-06 18:58:14 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2019-10-06 18:58:14 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2019-10-06 18:58:14 +0000  /usr/bin/codesign exited with 0
+2019-10-06 18:58:14 +0000  Entitlements for <IDEDistributionItem: 0x7fbe050f8780; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fbe0537d710:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe08b874b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c50b30; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fbe0537d710:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-06 18:58:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe050f8780; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fbe0537d710:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe08b874b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c52240; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fbe0537d710:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> to: /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~N83rt5
+2019-10-06 18:58:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8187C5416554E1483D5B451674E20FC6D6465CD9' '--entitlements' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~N83rt5' '--preserve-metadata=identifier,flags,runtime' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib'
+2019-10-06 18:58:14 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2019-10-06 18:58:14 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2019-10-06 18:58:14 +0000  /usr/bin/codesign exited with 0
+2019-10-06 18:58:14 +0000  Entitlements for <IDEDistributionItem: 0x7fbe07fa52b0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fbe08f67e60:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe0449a3a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe07481b70; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fbe08f67e60:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-06 18:58:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe07fa52b0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fbe08f67e60:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe0449a3a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe077c6650; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fbe08f67e60:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> to: /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~PtTS0J
+2019-10-06 18:58:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8187C5416554E1483D5B451674E20FC6D6465CD9' '--entitlements' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~PtTS0J' '--preserve-metadata=identifier,flags,runtime' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib'
+2019-10-06 18:58:14 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2019-10-06 18:58:15 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2019-10-06 18:58:15 +0000  /usr/bin/codesign exited with 0
+2019-10-06 18:58:15 +0000  Entitlements for <IDEDistributionItem: 0x7fbe08f95480; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fbe08b5bc50:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe05982600; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe07481b70; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fbe08b5bc50:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-06 18:58:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe08f95480; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fbe08b5bc50:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe05982600; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe08218060; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fbe08b5bc50:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~hePXMD
+2019-10-06 18:58:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8187C5416554E1483D5B451674E20FC6D6465CD9' '--entitlements' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~hePXMD' '--preserve-metadata=identifier,flags,runtime' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib'
+2019-10-06 18:58:15 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2019-10-06 18:58:15 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2019-10-06 18:58:15 +0000  /usr/bin/codesign exited with 0
+2019-10-06 18:58:15 +0000  Entitlements for <IDEDistributionItem: 0x7fbe081a3810; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fbe08fcced0:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe08b4cbf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe050dc7d0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fbe08fcced0:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-10-06 18:58:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe081a3810; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fbe08fcced0:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe08b4cbf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c0cff0; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='(null)', teamID='XNXHE58JZT', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fbe08fcced0:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> to: /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~byTfQX
+2019-10-06 18:58:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8187C5416554E1483D5B451674E20FC6D6465CD9' '--entitlements' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~byTfQX' '--preserve-metadata=identifier,flags,runtime' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib'
+2019-10-06 18:58:15 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2019-10-06 18:58:15 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2019-10-06 18:58:15 +0000  /usr/bin/codesign exited with 0
+2019-10-06 18:58:15 +0000  Entitlements for <IDEDistributionItem: 0x7fbe07481940; bundleID='org.cocoapods.demo.MPaySDK-Example', path='<DVTFilePath:0x7fbe08f50ac0:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe05c7a710; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe05c52f50; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='{
+    "application-identifier" = "XNXHE58JZT.org.cocoapods.demo.MPaySDK-Example";
+    "com.apple.developer.team-identifier" = XNXHE58JZT;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "XNXHE58JZT.org.cocoapods.demo.MPaySDK-Example"
+    );
+}', teamID='XNXHE58JZT', identifier='org.cocoapods.demo.MPaySDK-Example', executablePath='<DVTFilePath:0x7fbe0985d6c0:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/MPaySDK_Example'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "XNXHE58JZT.org.cocoapods.demo.MPaySDK-Example";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = XNXHE58JZT;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "XNXHE58JZT.org.cocoapods.demo.MPaySDK-Example"
+    );
+}
+2019-10-06 18:58:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe07481940; bundleID='org.cocoapods.demo.MPaySDK-Example', path='<DVTFilePath:0x7fbe08f50ac0:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbe05c7a710; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbe08eae450; name='Apple Development: Sandeep Rana (Q265HRGWU8)', hash='38829CABB9869D6443945E83F64A7785BF5B1DDB', serialNumber='774498C907EDEA87', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-06-08 20:39:37 +0000''>', entitlements='{
+    "application-identifier" = "XNXHE58JZT.org.cocoapods.demo.MPaySDK-Example";
+    "com.apple.developer.team-identifier" = XNXHE58JZT;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "XNXHE58JZT.org.cocoapods.demo.MPaySDK-Example"
+    );
+}', teamID='XNXHE58JZT', identifier='org.cocoapods.demo.MPaySDK-Example', executablePath='<DVTFilePath:0x7fbe0985d6c0:'/Users/sandeeprana/Library/Developer/Xcode/Archives/2019-10-07/MPaySDK-Example 07-10-19, 12.25 AM.xcarchive/Products/Applications/MPaySDK_Example.app/MPaySDK_Example'>', hardenedRuntime='0'>'> to: /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~84OY3V
+2019-10-06 18:58:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8187C5416554E1483D5B451674E20FC6D6465CD9' '--entitlements' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/entitlements~~~84OY3V' '--preserve-metadata=identifier,flags,runtime' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app'
+2019-10-06 18:58:16 +0000  /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root/Payload/MPaySDK_Example.app: signed app bundle with Mach-O thin (arm64) [org.cocoapods.demo.MPaySDK-Example]
+2019-10-06 18:58:16 +0000  /usr/bin/codesign exited with 0
+2019-10-06 18:58:16 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-10-06 18:58:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-06 18:58:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-06 18:58:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-06 18:58:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-06 18:58:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-06 18:58:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-06 18:58:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-06 18:58:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-06 18:58:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-10-06 18:58:16 +0000  Processing step: IDEDistributionCreateIPAStep
+2019-10-06 18:58:16 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root' '/var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Packages/MPaySDK-Example.ipa'
+2019-10-06 18:58:16 +0000  >>> Copying /var/folders/2f/cf0cgjv124xb8j6cs6s712mh0000gp/T/XcodeDistPipeline.~~~o34QB4/Root 
+2019-10-06 18:58:16 +0000  copying file ./BCSymbolMaps/67FE41A2-C1E1-331B-9709-765D12FC455C.bcsymbolmap ... 
+2019-10-06 18:58:16 +0000  20905 bytes for ./BCSymbolMaps/67FE41A2-C1E1-331B-9709-765D12FC455C.bcsymbolmap
+2019-10-06 18:58:16 +0000  copying file ./BCSymbolMaps/531DC94D-FA1A-354D-A159-F7B0720F85E8.bcsymbolmap ... 
+2019-10-06 18:58:16 +0000  21241 bytes for ./BCSymbolMaps/531DC94D-FA1A-354D-A159-F7B0720F85E8.bcsymbolmap
+2019-10-06 18:58:16 +0000  copying file ./Payload/MPaySDK_Example.app/_CodeSignature/CodeResources ... 
+2019-10-06 18:58:16 +0000  9173 bytes for ./Payload/MPaySDK_Example.app/_CodeSignature/CodeResources
+2019-10-06 18:58:16 +0000  copying file ./Payload/MPaySDK_Example.app/Base.lproj/LaunchScreen.nib/objects-13.0+.nib ... 
+2019-10-06 18:58:16 +0000  3192 bytes for ./Payload/MPaySDK_Example.app/Base.lproj/LaunchScreen.nib/objects-13.0+.nib
+copying file ./Payload/MPaySDK_Example.app/Base.lproj/LaunchScreen.nib/runtime.nib ... 
+2019-10-06 18:58:16 +0000  3191 bytes for ./Payload/MPaySDK_Example.app/Base.lproj/LaunchScreen.nib/runtime.nib
+2019-10-06 18:58:16 +0000  copying file ./Payload/MPaySDK_Example.app/Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib/objects-13.0+.nib ... 
+2019-10-06 18:58:16 +0000  987 bytes for ./Payload/MPaySDK_Example.app/Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib/objects-13.0+.nib
+copying file ./Payload/MPaySDK_Example.app/Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib/runtime.nib ... 
+2019-10-06 18:58:16 +0000  987 bytes for ./Payload/MPaySDK_Example.app/Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib/runtime.nib
+2019-10-06 18:58:16 +0000  copying file ./Payload/MPaySDK_Example.app/Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib/objects-13.0+.nib ... 
+2019-10-06 18:58:16 +0000  7174 bytes for ./Payload/MPaySDK_Example.app/Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib/objects-13.0+.nib
+copying file ./Payload/MPaySDK_Example.app/Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib/runtime.nib ... 
+2019-10-06 18:58:16 +0000  7173 bytes for ./Payload/MPaySDK_Example.app/Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib/runtime.nib
+2019-10-06 18:58:16 +0000  copying file ./Payload/MPaySDK_Example.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/MPaySDK_Example.app/Base.lproj/Main.storyboardc/Info.plist
+2019-10-06 18:58:16 +0000  copying file ./Payload/MPaySDK_Example.app/MPaySDK_Example ... 
+2019-10-06 18:58:16 +0000  139920 bytes for ./Payload/MPaySDK_Example.app/MPaySDK_Example
+2019-10-06 18:58:16 +0000  copying file ./Payload/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib ... 
+2019-10-06 18:58:16 +0000  500080 bytes for ./Payload/MPaySDK_Example.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/MPaySDK_Example.app/Frameworks/libswiftCore.dylib ... 
+2019-10-06 18:58:19 +0000  69852784 bytes for ./Payload/MPaySDK_Example.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2019-10-06 18:58:19 +0000  1535328 bytes for ./Payload/MPaySDK_Example.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib ... 
+2019-10-06 18:58:19 +0000  2993312 bytes for ./Payload/MPaySDK_Example.app/Frameworks/libswiftDispatch.dylib
+2019-10-06 18:58:19 +0000  copying file ./Payload/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2019-10-06 18:58:19 +0000  335920 bytes for ./Payload/MPaySDK_Example.app/Frameworks/libswiftCoreFoundation.dylib
+2019-10-06 18:58:19 +0000  copying file ./Payload/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib ... 
+2019-10-06 18:58:19 +0000  813968 bytes for ./Payload/MPaySDK_Example.app/Frameworks/libswiftDarwin.dylib
+2019-10-06 18:58:19 +0000  copying file ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/_CodeSignature/CodeResources ... 
+2019-10-06 18:58:19 +0000  3726 bytes for ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/_CodeSignature/CodeResources
+copying file ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPaySDK ... 
+2019-10-06 18:58:19 +0000  168288 bytes for ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPaySDK
+2019-10-06 18:58:19 +0000  copying file ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPaySDK.bundle/UserDetailsForm.html ... 
+2019-10-06 18:58:19 +0000  2027 bytes for ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPaySDK.bundle/UserDetailsForm.html
+copying file ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPaySDK.bundle/Info.plist ... 
+2019-10-06 18:58:19 +0000  762 bytes for ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPaySDK.bundle/Info.plist
+2019-10-06 18:58:19 +0000  copying file ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPay.storyboardc/nHY-oc-LvK-view-oou-X6-uhj.nib/objects-13.0+.nib ... 
+2019-10-06 18:58:19 +0000  3400 bytes for ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPay.storyboardc/nHY-oc-LvK-view-oou-X6-uhj.nib/objects-13.0+.nib
+copying file ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPay.storyboardc/nHY-oc-LvK-view-oou-X6-uhj.nib/runtime.nib ... 
+2019-10-06 18:58:19 +0000  3402 bytes for ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPay.storyboardc/nHY-oc-LvK-view-oou-X6-uhj.nib/runtime.nib
+2019-10-06 18:58:19 +0000  copying file ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPay.storyboardc/Info.plist ... 
+195 bytes for ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPay.storyboardc/Info.plist
+2019-10-06 18:58:19 +0000  copying file ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPay.storyboardc/UserDetailsVC.nib/objects-13.0+.nib ... 
+2019-10-06 18:58:19 +0000  1025 bytes for ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPay.storyboardc/UserDetailsVC.nib/objects-13.0+.nib
+copying file ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPay.storyboardc/UserDetailsVC.nib/runtime.nib ... 
+2019-10-06 18:58:19 +0000  1025 bytes for ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/MPay.storyboardc/UserDetailsVC.nib/runtime.nib
+2019-10-06 18:58:19 +0000  copying file ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/Info.plist ... 
+2019-10-06 18:58:19 +0000  787 bytes for ./Payload/MPaySDK_Example.app/Frameworks/MPaySDK.framework/Info.plist
+copying file ./Payload/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib ... 
+2019-10-06 18:58:20 +0000  31957072 bytes for ./Payload/MPaySDK_Example.app/Frameworks/libswiftFoundation.dylib
+2019-10-06 18:58:20 +0000  copying file ./Payload/MPaySDK_Example.app/embedded.mobileprovision ... 
+7524 bytes for ./Payload/MPaySDK_Example.app/embedded.mobileprovision
+copying file ./Payload/MPaySDK_Example.app/Info.plist ... 
+1028 bytes for ./Payload/MPaySDK_Example.app/Info.plist
+copying file ./Payload/MPaySDK_Example.app/PkgInfo ... 
+8 bytes for ./Payload/MPaySDK_Example.app/PkgInfo
+copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2019-10-06 18:58:20 +0000  679568 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+2019-10-06 18:58:20 +0000  copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2019-10-06 18:58:25 +0000  95497472 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+2019-10-06 18:58:25 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2019-10-06 18:58:25 +0000  2040928 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+2019-10-06 18:58:25 +0000  copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2019-10-06 18:58:25 +0000  4056784 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+2019-10-06 18:58:25 +0000  copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2019-10-06 18:58:25 +0000  450272 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+2019-10-06 18:58:25 +0000  copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2019-10-06 18:58:25 +0000  1091328 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+2019-10-06 18:58:25 +0000  copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2019-10-06 18:58:27 +0000  43094208 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+2019-10-06 18:58:27 +0000  /usr/bin/ditto exited with 0
+2019-10-06 18:58:27 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-10-06 18:58:27 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-10-06 18:58:27 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2019-10-06 18:58:28 +0000  Processing step: IDEDistributionCreateManifestStep
+2019-10-06 18:58:28 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
