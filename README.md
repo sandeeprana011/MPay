@@ -13,7 +13,7 @@ Then open MPaySDK.xcworkspace in Xcode.
 
 ## Known Issues
 
-1. Selecting image from Files wouldn't work for now. Support can be extended.
+1. Selecting image from Files app wouldn't work for now. Support can be extended. Didn't get much to implement it. Because, A hot release is going on in the current company due to festive season.
 
 ## Requirements
 
