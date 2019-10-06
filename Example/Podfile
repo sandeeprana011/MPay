@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MPaySDK_Example' do
+  pod 'MPaySDK', :path => '../'
+
+  target 'MPaySDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
