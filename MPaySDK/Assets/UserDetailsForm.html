@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        String.prototype.b64encode = function() {
+            return btoa(unescape(encodeURIComponent(this)));
+        };
+        String.prototype.b64decode = function() {
+            return decodeURIComponent(escape(atob(this)));
+        };
+
+        function loadFileAsText(){
+            var fileToLoad = document.getElementById("fileToLoad").files[0];
+
+            var fileReader = new FileReader();
+            fileReader.onload = function(fileLoadedEvent){
+                var textFromFileLoaded = fileLoadedEvent.target.result;
+                console.log(textFromFileLoaded.b64encode());
+                console.log(textFromFileLoaded.b64encode().b64decode());
+            };
+
+            fileReader.readAsText(fileToLoad, "UTF-8");
+        }
+    </script>
+</head>
+<body>
+
+<form action="/action_page.php">
+    First name: <input id="fileToLoadyes" type="text" name="FirstName" value="Mickey"><br>
+    Last name: <input id="fileToLoad" type="file" name="LastName" value="Mouse"><br>
+    <input type="button" onclick="loadFileAsText()" value="Submit">
+</form>
+
+<p>Click the "Submit"</p>
+
+</body>
+</html>
+
