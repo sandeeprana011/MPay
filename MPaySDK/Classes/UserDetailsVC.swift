@@ -52,18 +52,18 @@ extension UserDetailsVC: WKScriptMessageHandler {
         case HandlerType.USER_DETAILS:
             print("User Details");
             print(self.pickedImage);
-            if let data = (message.body as? String)?.data(using: .utf8) {
-                do {
-                    let dict = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
+			if let dict = message.body as? [String:Any] {
+//                do {
+//                    let dict = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
                     let userDetails = UserDetails();
-                    userDetails.firstName = dict?["firstname"] as? String;
-                    userDetails.lastName = dict?["lastname"] as? String;
+                    userDetails.firstName = dict["firstname"] as? String;
+                    userDetails.lastName = dict["lastname"] as? String;
                     userDetails.profilePicture = self.pickedImage;
                     self.delegate?.onUserDetailsSubmitted(vc: self, userDetails: userDetails);
-                } catch {
-                    print(error.localizedDescription)
-                    self.delegate?.onErrorUserDetails(vc: self, message: "Something Went wrong");
-                }
+//                } catch {
+//                    print(error.localizedDescription)
+//                    self.delegate?.onErrorUserDetails(vc: self, message: "Something Went wrong");
+//                }
             }
             break;
         default:
