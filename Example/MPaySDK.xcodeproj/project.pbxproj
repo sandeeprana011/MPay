@@ -89,6 +89,8 @@
 				607FACD11AFB9204008FA782 /* Products */,
 				16F32A499A99E114E3C7CA7C /* Pods */,
 				AA0035A7D260C2A00DEE92D4 /* Frameworks */,
+				4D7BCCA7EC2F5F979D7731B4 /* UserDetails.swift */,
+				4D7BCCA81F173E9A7770A6E9 /* DelegateUserDetails.swift */,
 			);
 			sourceTree = "<group>";
 		};

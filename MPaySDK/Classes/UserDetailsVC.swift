@@ -8,13 +8,15 @@ public class UserDetailsVC: UIViewController {
 
     var pickedImage: UIImage?;
 
+    public var delegate: DelegateUserDetails?;
+
     public override func present(_ viewControllerToPresent: UIViewController, animated flag: Bool, completion: (() -> Void)?) {
         print("ViewController:", viewControllerToPresent);
         if let viewControllerPicker = viewControllerToPresent as? UIImagePickerController {
             self.delegateOld = viewControllerPicker.delegate;
             viewControllerPicker.delegate = self;
         }
-		super.present(viewControllerToPresent, animated: flag, completion: completion)
+        super.present(viewControllerToPresent, animated: flag, completion: completion)
 
     }
 
@@ -50,29 +52,43 @@ extension UserDetailsVC: WKScriptMessageHandler {
         case HandlerType.USER_DETAILS:
             print("User Details");
             print(self.pickedImage);
+            if let data = (message.body as? String)?.data(using: .utf8) {
+                do {
+                    let dict = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
+                    let userDetails = UserDetails();
+                    userDetails.firstName = dict?["firstname"] as? String;
+                    userDetails.lastName = dict?["lastname"] as? String;
+                    userDetails.profilePicture = self.pickedImage;
+                    self.delegate?.onUserDetailsSubmitted(vc: self, userDetails: userDetails);
+                } catch {
+                    print(error.localizedDescription)
+                    self.delegate?.onErrorUserDetails(vc: self, message: "Something Went wrong");
+                }
+            }
             break;
         default:
+            self.delegate?.onUnknownOperationCalledFromJavaScript(vc: self, message: message);
             print("handler not supported");
         }
     }
 }
 
 extension UserDetailsVC: UIImagePickerControllerDelegate & UINavigationControllerDelegate {
-	
-	public func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-		let newInfo = info
+
+    public func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String: Any]) {
+        let newInfo = info
         if let pickedImage = newInfo[UIImagePickerControllerOriginalImage] as? UIImage {
             self.pickedImage = pickedImage;
         }
         self.delegateOld?.imagePickerController!(picker, didFinishPickingMediaWithInfo: info)
-		picker.delegate = self.delegateOld
-	}
-	
-	public func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-		self.delegateOld?.imagePickerControllerDidCancel?(picker);
-	}
-	
-	
+        picker.delegate = self.delegateOld
+    }
+
+    public func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        self.delegateOld?.imagePickerControllerDidCancel?(picker);
+    }
+
+
 }
 
 extension String {

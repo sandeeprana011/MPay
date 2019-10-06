@@ -9,27 +9,39 @@
             return decodeURIComponent(escape(atob(this)));
         };
 
-        function loadFileAsTextAndSendToVC() {
-            var fileToLoad = document.getElementById("fileToLoad").files[0];
+        function submitUserInfo() {
+            // var fileToLoad = document.getElementById("fileToLoad").files[0];
+            var firstname = document.getElementById("firstname").value;
+            var lastname = document.getElementById("lastname").value;
+            let json = {"firstname": firstname, "lastname": lastname};
+            window.webkit.messageHandlers.USER_DETAILS.postMessage(json);
 
-            var fileReader = new FileReader();
-            fileReader.onload = function (fileLoadedEvent) {
-                var textFromFileLoaded = fileLoadedEvent.target.result;
-                // console.log(textFromFileLoaded.b64encode());
-                // console.log(textFromFileLoaded.b64encode().b64decode());
-                window.webkit.messageHandlers.USER_DETAILS.postMessage(textFromFileLoaded.b64encode());
-            };
+            // Not using for now but can be optimised for better solutions.
+            // var fileReader = new FileReader();
+            // fileReader.onload = function (fileLoadedEvent) {
+            //     var textFromFileLoaded = fileLoadedEvent.target.result;
+            //     // console.log(textFromFileLoaded.b64encode());
+            //     // console.log(textFromFileLoaded.b64encode().b64decode());
+            //     window.webkit.messageHandlers.USER_DETAILS.postMessage(textFromFileLoaded.b64encode());
+            // };
+            //
+            // fileReader.readAsText(fileToLoad, "UTF-8");
+        }
 
-            fileReader.readAsText(fileToLoad, "UTF-8");
+        function imageLoaded() {
+            // profilepicture
+            var firstname = document.getElementById("profilepicture").value;
         }
     </script>
 </head>
 <body>
 
 <form action="/action_page.php">
-    First name: <input id="fileToLoadyes" type="text" name="FirstName" value="Mickey"><br>
-    Last name: <input id="fileToLoad" type="file" name="LastName" value="Mouse"><br>
-    <input type="button" onclick="loadFileAsTextAndSendToVC()" value="Submit">
+    Profile Picture:<br><input type="image" id="profilepicture"><br>
+    First name:<br><input id="firstname" type="text" name="FirstName" value="Mickey"><br>
+    Last name:<br><input id="lastname" type="file" name="LastName" value="Mouse"><br>
+    <input type="button" onclick="submitUserInfo()" value="Submit" onchange="imageLoaded()"><br>
+
 </form>
 
 <p>Click the "Submit"</p>
