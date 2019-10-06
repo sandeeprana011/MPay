@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Known Issues
+
 1. Selecting image from Files wouldn't work for now. Support can be extended.
 
 ## Requirements
