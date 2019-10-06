@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function hideText() {
+            <!--            document.getElementById("demo").style.display = "none";-->
+            window.webkit.messageHandlers.lock.postMessage("https://staging-portal.kristal.ai/login");
+
+        }
+
+        function showText() {
+            <!--            document.getElementById("demo").style.display = "block";-->
+            window.webkit.messageHandlers.share.postMessage("https://staging-portal.kristal.ai/login");
+        }
+
+        function authenticationSuccessfull() {
+            window.webkit.messageHandlers.share.postMessage("authenticationSuccessfull();");
+        }
+
+        function authenticationFailedOrCancelled() {
+            window.webkit.messageHandlers.share.postMessage("authenticationFailedOrCancelled();");
+        }
+    </script>
+</head>
+<body>
+<p id="demo">Hello World.</p>
+<input height="250" type="button" onclick="showText()" value="Show Text and Trigger Handler">
+<input type="button" onclick="hideText()" value="Hide Text">
+</body>
+</html>

@@ -1,0 +1,16 @@
+PODS:
+  - MPaySDK (0.1.0)
+
+DEPENDENCIES:
+  - MPaySDK (from `../`)
+
+EXTERNAL SOURCES:
+  MPaySDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MPaySDK: c2259599aa48977ad8c914f8c3ecc273a4bcb1a0
+
+PODFILE CHECKSUM: 33efe7c46c70d5bb4fd695a4e6c7bc578ade7cdf
+
+COCOAPODS: 1.7.1

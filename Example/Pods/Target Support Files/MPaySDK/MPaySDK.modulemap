@@ -1,0 +1,6 @@
+framework module MPaySDK {
+  umbrella header "MPaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
