@@ -5,9 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/MPaySDK.svg?style=flat)](https://cocoapods.org/pods/MPaySDK)
 [![Platform](https://img.shields.io/cocoapods/p/MPaySDK.svg?style=flat)](https://cocoapods.org/pods/MPaySDK)
 
-## Example
+## Example used MPaySDK
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Then open MPaySDK.xcworkspace in Xcode.
+## Note: If Project doesn't compiles or crashes. Please clean the project once.
 
 ## Known Issues
 
