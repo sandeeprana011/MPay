@@ -9,20 +9,23 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Known Issues
+1. Selecting image from Files wouldn't work for now. Support can be extended.
+
 ## Requirements
 
 ## Installation
 
-MPaySDK is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'MPaySDK'
+MPaySDK is not available through [CocoaPods](https://cocoapods.org). 
+You can still install the project using 
+``` ruby
+pod 'MPaySDK', :git => 'https://github.com/sandeeprana011/MPay.git', :branch => 'master'
+s
 ```
 
 ## Author
 
-sandeepo2o, sandeep.rana@investo2o.com
+sandeeprana011, sandeep.rana011@gmail.com
 
 ## License
 
