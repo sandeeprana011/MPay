@@ -4,5 +4,6 @@
 
 import Foundation
 
-enum HandlerType {
+enum HandlerType: String {
+    case USER_DETAILS, NOT_SUPPORTED
 }
